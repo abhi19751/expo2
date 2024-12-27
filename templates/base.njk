@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ lang | default('en') }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords | join(', ') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/en/">English</a> | <a href="/fr/">Français</a>
+        </nav>
+    </header>
+    <main>
+        {{ content | safe }}
+    </main>
+    <footer>
+        <p>© 2024 My Website</p>
+    </footer>
+</body>
+</html>
