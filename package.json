@@ -2,11 +2,11 @@
   "name": "expo2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "eleventy"
+    "build": "npx eleventy"  // Eleventy build command
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0"
   }
 }
+
