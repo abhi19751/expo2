@@ -1,9 +1,9 @@
 module.exports = function(eleventyConfig) {
   return {
     dir: {
-      input: "content",    // Input directory
-      output: "_site",     // Output directory
-      includes: "../templates" // Templates directory
+      input: "content",  // HTML pages yahan se uthenge
+      output: "_site",   // Final build yahan generate hoga
+      includes: "../templates" // Templates ka path
     }
   };
 };
